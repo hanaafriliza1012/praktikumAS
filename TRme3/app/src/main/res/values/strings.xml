@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TR.Me</string>
+    <string name="tr_me">TR.me</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="delete_all">Delete all</string>
+    <string name="edit_list">Edit list</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="task">Task</string>
+    <string name="Settings">Settings</string>
+    <string name="hello_ini_activity_settings">Hello Ini Activity Settings</string>
+</resources>
