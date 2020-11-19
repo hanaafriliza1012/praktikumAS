@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#ec8484</color>
     <color name="bgicon">#ec8484</color>
+    <color name="bglist">#F3B3B3</color>
 </resources>

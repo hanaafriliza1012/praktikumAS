@@ -12,4 +12,8 @@
     <string name="task">Task</string>
     <string name="Settings">Settings</string>
     <string name="hello_ini_activity_settings">Hello Ini Activity Settings</string>
+    <string name="task_name">task_name</string>
+    <string name="detail">Menyiram bunga pada hari Senin
+    Waktu : 08.00 AM</string>
+    <string name="title"><b>Menyiram bunga</b></string>
 </resources>

@@ -5,11 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.trme.MainActivity"
+    android:background="@drawable/background"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-   <!--<FrameLayout
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:id="@+id/fragment_container"/> -->
    <com.google.android.material.floatingactionbutton.FloatingActionButton
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
@@ -21,15 +18,39 @@
        app:backgroundTint="@color/bgicon"
        app:elevation="6dp"
        android:src="@drawable/ic_add_circle_white_24"/>
-   <!-- android:id="@+id/fab"
-       android:layout_width="wrap_content"
+   <TableLayout
+       android:id="@+id/desk"
+       android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:layout_marginBottom="15dp"
-       android:backgroundTint="@color/colorAccent"
-       android:clickable="true"
-       android:focusable="true"
-       android:src="@drawable/ic_add_circle_white_24"
-       android:layout_centerHorizontal="true"
-       android:layout_alignParentBottom="true"
-       tools:ignore="UnusedAttribute" /> -->
-</RelativeLayout>
+       android:layout_marginLeft="@dimen/activity_horizontal_margin"
+       android:layout_marginRight="@dimen/activity_horizontal_margin"
+       android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+      <TableRow
+          android:layout_width="match_parent"
+          android:layout_marginTop="@dimen/activity_vertical_margin"
+          android:layout_height="100dp"
+          android:layout_marginBottom="30dp"
+          android:background="@color/bglist">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:paddingLeft="@dimen/activity_vertical_margin"
+             android:layout_marginTop="@dimen/activity_vertical_margin"
+             android:layout_marginRight="@dimen/activity_vertical_margin"
+             android:text="@string/title"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+         <TextView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="@dimen/activity_vertical_margin"
+             android:layout_weight="1"
+             android:text="@string/detail"
+             android:paddingBottom="@dimen/activity_vertical_margin"
+             android:textColor="@android:color/black"
+             android:textSize="20sp" />
+      </TableRow>
+   </TableLayout>
+   </RelativeLayout>
