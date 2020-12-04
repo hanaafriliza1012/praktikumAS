@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmsListenerApp</string>
+    <string name="ini_aplikasi_sms_reciever">Ini Aplikasi SMS Reciever</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="coming_form">Coming Form</string>
+    <string name="ngoding_yuk">Ngoding yuk</string>
+    <string name="tutup">Tutup</string>
+</resources>
