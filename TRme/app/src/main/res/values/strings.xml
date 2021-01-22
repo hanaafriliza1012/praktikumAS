@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TR.me</string>
+    <string name="search">Search</string>
+    <string name="delete_all">Delete All</string>
+    <string name="settings">Settings</string>
+    <string name="search_hint">Insert keyword</string>
+    <string name="this_activity">this_activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tentang">
+        TR.me, singkatan dari To do list Reminder me. Merupakan aplikasi yang digunakan sebagai pengingat dan penjadwalan tugas harian.
+    </string>
+    <string name="Latar">
+        Awal mula ide ini muncul dikarenkan banyaknya kegiatan yang akan dilakukan, tetapi sebagian besar kesulitan dan sering lupa untuk mengingatnya. Aplikasi ini dibuat untuk mengingatkan pengguna mengenai jadwal harian yang harus dilakukan. Sedangkan bila jadwal hanya dicatat, tidak ada jaminan bahwa catatan tersebut tidak akan hilang karena tidak ada alarm untuk mengingatkannya.
+    </string>
+    <string name="about">About</string>
+    <string name="ketua">Ketua</string>
+    <string name="gema_annisa">Gema Annisa</string>
+    <string name="hana_afriliza">Hana Afriliza</string>
+    <string name="anggota">Anggota</string>
+    <string name="ario_renaldi">Ario Rinaldi</string>
+    <string name="about_tr_me">About TR.me</string>
+    <string name="background_tr_me">Background TR.me</string>
+</resources>
